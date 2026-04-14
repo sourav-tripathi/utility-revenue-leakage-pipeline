@@ -26,6 +26,7 @@ I successfully isolated **27,051 high-probability fraudulent accounts** and engi
 
 ### Step 2A: The "Ghost Account" Audit
 **The Hypothesis:** Customers exist in the directory but are not generating invoices.
+
 ```sql
 SELECT c.client_id
 FROM client_master c
